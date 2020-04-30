@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Concert Events</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cyborg/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <nav class="navbar navbar-light bg-light">
+          <form class="form-inline">
+            <button class="btn btn-outline-success" type="button">HOME</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button"><MUSIC</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button">MUSIC</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button">MOVIES</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button">TV SHOWS</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button">BOOKS</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button">AUTHORS</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button">GAMES</button>
+            <button class="btn btn-sm btn-outline-secondary" type="button">PODCASTS</button>
+
+          </form>
+        </nav>
+
+        
+        <div class="container">
+            <div class="jumbotron">
+                <h3 class="text-center">* Welcome to TasteDive *</h3>
+                <form id="searchForm">
+                    <input type="text" class="form-control" id="searchText" placeholder="Search...">
+                </form>
+ 
+                  <table class="container">
+                    <tbody>
+                      <tr>
+                        <td>NAME</td>
+                        <td>TYPE</td>
+                      </tr>
+                    </thead>
+                    <tbody id="bodyData">
+                      
+                    </tbody>
+                  </table>
+
+            </div>
+        </div>
+   
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"></a>
+                </div>
+            </div>
+        </nav>
+
+
+        <script
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
+
+    </body>
+</html>
